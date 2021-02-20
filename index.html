@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--
+   tells what is document DOCTYPE
+   what is version of html we are working
+   <!DOCTYPE html> - HTML 5
+   html - main focus is to provide structure to Site
+   css - main focus is to provide style to Site
+   javascript - main focus is to provide behavior to site
+-->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!--
+      meta element - tells the browser how it should render the page
+                   - tells associated data
+      Attributes:
+        charset - tells what character set
+          - mojibake - happens when browser uses a wrong character set
+          - utf-8 should be set for maximum compatibility <TOD> read url </TOD>
+        description - tells a summary (can be seen in google)
+    -->
+  <title>Mikko's Personal Site</title>
+</head>
+
+<body>
+  <table cellspacing="20">
+    <tr>
+      <td><img src="images/MikkoCircle.png" alt="Mikko Profile Picture"></td>
+      <td>
+        <h1>Michael Arlanza</h1>
+        <p><em>Software Developer and Support - <strong>MyCompanyName</strong></em></p>
+        <!--
+          notes:
+          contains more meaning; should not be concerned with styling yet since we're doing html
+          instead of i use em
+          instead of b use strong
+         -->
+        <p>I am a web developer specializing in web services. I love martial arts and music.💪👌</p>
+      </td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>Education</h3>
+  <ul>
+    <li>Saint Mary's Academy</li>
+    <li><a href="https://www.letran.edu.ph/">Colegio de San Juan de Letran</a></li>
+    <li><a href="https://www.dlsu.edu.ph/">De La Salle University</a>
+      <ul>
+        <li>Bachelor of Science in Computer Science Major in Software Technology</li>
+      </ul>
+    </li>
+  </ul>
+
+  <hr>
+
+  <h3>Work Experience</h3>
+  <table cellspacing="10">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2010 - 2013</td>
+        <td>Software Engineer at Chum Bucket</td>
+      </tr>
+      <tr>
+        <td>2014</td>
+        <td>Software Engineer at Krusty Krab</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <h3>Skills</h3>
+  <table cellspacing="10">
+    <tbody>
+      <tr>
+        <td>Software Engineering</td>
+        <td>⭐⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Software Support</td>
+        <td>⭐⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Guitar</td>
+        <td>⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Singing</td>
+        <td>⭐⭐</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <a href="hobbies.html">
+    <h3>Hobbies</h3>
+  </a>
+  <a href="contact.html">
+    <h3>Contact Me</h3>
+  </a>
+
+</body>
+
+</html>
